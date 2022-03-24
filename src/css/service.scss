@@ -1,0 +1,29 @@
+.graphic, .photography{
+  position: relative;
+  display: block;
+  
+  img{
+    display: block;
+  }
+  .content-wrapper{
+    position: absolute;
+    bottom: 4rem;
+    padding: 0 2rem;
+  }
+  h3{
+    text-align: center;
+    font-size: 2.3rem;
+    font-family: "Fraunces";
+    margin-top: 3rem;
+    width: 70%;
+    margin: 3.4rem auto 2rem;
+    // border: dotted;
+    color: rgb(62, 62, 62);
+
+
+  }
+  p{
+    font-size: 1.5rem;
+    color:rgb(62, 62, 62);
+  }
+}
