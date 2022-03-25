@@ -4,7 +4,7 @@ import cup from './../images/mobile/image-stand-out.jpg'
 
 const Learn = () => {
   return (
-    <>
+    <div className='learn'>
       <div className="egg">
         <img src={egg} alt="" />
       </div>
@@ -21,7 +21,7 @@ const Learn = () => {
         <p>  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
         <div className="cta">Learn more</div>
       </div>
-    </>
+    </div>
   )
 }
 

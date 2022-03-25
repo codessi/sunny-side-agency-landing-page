@@ -1,0 +1,33 @@
+.footer{
+  color: hsl(168,44%,32%);
+  background-color: hsl(167,44%,70%);
+  padding: 3rem 0;
+  h3{
+    text-align: center;
+    font-size: 2rem;
+    font-weight:400;
+    margin-bottom: 1.5rem;
+    font-family: "Barlow", sans-serif;
+  }
+
+  ul:first-of-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 2rem;
+  }
+  ul:nth-of-type(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: black;
+  }
+  li:hover{
+    color: white;
+  }
+  img:hover{
+   filter:brightness(714%)
+  }
+}

@@ -19,6 +19,7 @@
       margin: 3rem 1rem;
       font-size: 1.8rem;
       color: gray;
+      
 
     }
     h5{
@@ -33,4 +34,32 @@
       margin-bottom: 4rem;
     }
   }
+}
+
+@media screen and (min-width: 46rem ) {
+.client {
+  h4{
+    font-size: 1.2rem;
+  }
+  ul{
+    display: flex;
+    justify-content: center;
+
+    li{
+      img{
+        height: 5rem;
+      }
+      p{
+        font-size: 1rem;
+        width: 15rem;
+      }
+      h5{
+        font-size: 1.2rem;
+      }
+      .title{
+        font-size: 1rem;
+      }
+    }
+  }
+}
 }

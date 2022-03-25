@@ -7,10 +7,10 @@ import sugerCubes from './../images/mobile/image-gallery-sugar-cubes.jpg'
 const Pictures = () => {
   return (
     <div className='pictures'>
-      <img src={milkbottles} alt="" />
-      <img src={orange} alt="" />
-      <img src={cone} alt="" />
-      <img src={sugerCubes} alt="" />
+      <img src={milkbottles} alt="milkbottles" />
+      <img src={orange} alt="orange" />
+      <img src={cone} alt="cone" />
+      <img src={sugerCubes} alt="suger cube" />
     </div>
   )
 }
